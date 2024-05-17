@@ -1,2 +1,2 @@
-#Gallery Images
+# Gallery Images
 Galería de imágenes de animales.

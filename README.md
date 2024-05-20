@@ -1,2 +1,6 @@
 # Gallery Images
-Galería de imágenes de animales.
+Animal image gallery. 
+
+In the project directory, you can run:
+
+### `npm start`

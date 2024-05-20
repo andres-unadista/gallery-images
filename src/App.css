@@ -1,0 +1,26 @@
+/* gallery */
+.container {
+  padding: 1em;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  height: 50vh;
+  gap: 1em;
+}
+
+.container figure {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container img {
+  width: 80%;
+  height: 20vh;
+  object-fit: cover;
+}
+
+#parrot {
+  object-position: top;
+}
+
+/* end gallery */

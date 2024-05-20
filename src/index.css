@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background: #d3cce3; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #e9e4f0, #d3cce3); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #e9e4f0,
+    #d3cce3
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/* gallery  */
+
+#root > img {
+  background-color: gray;
+  width: 30%;
+  height: 50vh;
+  object-fit: cover;
+  object-position: top;
+  margin: auto;
+}
+
+figcaption {
+  margin-top: 0.2em;
+}
+
+.container > a {
+  text-decoration: none;
+}
+
+img {
+  border-radius: 3%;
+}
+
+/* end gallery */
